@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/fttechdb
+    username: root
+    password: aykan123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
